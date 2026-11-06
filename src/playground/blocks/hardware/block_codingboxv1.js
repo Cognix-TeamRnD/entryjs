@@ -130,7 +130,7 @@ Entry.CodingBoxV1 = new (class CodingBoxV1 {
                     codingboxv1_set_led: '%1 LED를 %2',
                     codingboxv1_set_rgb: 'RGB LED를 %1 색으로 정하기',
                     codingboxv1_set_rgb_value: 'RGB LED를 빨강 %1 초록 %2 파랑 %3 로 정하기',
-                    codingboxv1_rgb_off: 'RGB LED 끄기',                    
+                    codingboxv1_rgb_off: 'RGB LED 끄기',
 
                     codingboxv1_get_light: '조도 센서 값',
                     codingboxv1_get_sound: '사운드 센서 값',
@@ -430,7 +430,7 @@ Entry.CodingBoxV1 = new (class CodingBoxV1 {
                         '0,0,0'
                     );
                 },
-            },            
+            },
 
             codingboxv1_get_light: {
                 color: hardwareColor,
@@ -1124,7 +1124,7 @@ Entry.CodingBoxV1 = new (class CodingBoxV1 {
 
                     return Math.round(result);
                 },
-            },            
+            },
         };
     };
 })();
