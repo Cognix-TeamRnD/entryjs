@@ -57,6 +57,7 @@ Entry.CodingBoxV1 = new (class CodingBoxV1 {
             'codingboxv1_matrix_clear',
 
             'codingboxv1_convert_scale',
+            'codingboxv1_bottom_space',
         ];
 
         this.ledColorMenu = [
@@ -1124,6 +1125,28 @@ Entry.CodingBoxV1 = new (class CodingBoxV1 {
 
                     return Math.round(result);
                 },
+            },
+
+
+            // 블록 목록 하단 여백
+            codingboxv1_bottom_space: {
+                skeleton: 'basic_text',
+                color: EntryStatic.colorSet.common.TRANSPARENT,
+                fontColor: 'transparent',
+                template: '%1',
+                params: [
+                    {
+                        type: 'Text',
+                        text: ' ',
+                        color: 'transparent',
+                    },
+                ],
+                def: {
+                    type: 'codingboxv1_bottom_space',
+                },
+                class: 'codingboxv1',
+                isNotFor: ['codingboxv1'],
+                events: {},
             },
         };
     };
